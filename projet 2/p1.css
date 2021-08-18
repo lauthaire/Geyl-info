@@ -1,0 +1,32 @@
+.menu li ul{
+	background:#262626;
+    opacity: 0;
+    visibility: hidden;
+    transition: 300ms;
+    z-index: 999;
+    left: 100px;
+    top:0;
+    list-style: none;
+    position: absolute;
+    height: auto;
+    min-width: 250px;
+    padding: 0;
+    margin: 0;
+}
+.menu li:hover >ul, .menu li ul li:hover{
+       display: block;
+       opacity: 1;
+       visibility: visible;
+       left: 250px;
+}
+.menu li ul li a{
+     text-transform: uppercase;
+     font-family: bignoodletitling;
+     font-size:15px;
+     padding: 10px;
+     text-align: center;
+     border:0;
+     border-bottom: 1px solid #ddd;
+     height: auto; 
+}
+.menu li 
