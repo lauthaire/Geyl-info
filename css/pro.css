@@ -41,7 +41,7 @@ background-color:#33FF99;
  	text-align: center;
  }
  .h1{
-  height: 65px;
+  height: 100%;
  	background-color:#000;
   background-image: url(../images/ow.png);
  }
@@ -80,7 +80,7 @@ background-color:#33FF99;
  }
  .table{
  	  display: table;
- 	  margin: 0 auto;
+ 	  margin: 100%;
  }
  .menu-ind:hover{
       border-top: 5px solid #4c8;
